@@ -1,0 +1,66 @@
+
+.product{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(42,244,5,1) 100%);
+}
+.product a{
+    text-decoration: none;
+}
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: greenyellow;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    
+    border-radius: 0;
+    cursor: pointer;
+}
+.card:hover{
+    border-radius: 10px;
+
+}
+.product.card-body{
+    border: 1px dashed rgb(190,185,185);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+
+}
+.per1{
+    color: rgb(168,162,162);
+}
+a{
+    text-decoration: none;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    color: white;
+    outline: none;
+    border: none;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
